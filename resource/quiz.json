@@ -1,0 +1,204 @@
+{
+    "preguntas": [
+        {
+            "pregunta": "¿En qué mes nos conocimos?",
+            "opciones": [
+                "Enero",
+                "Septiembre",
+                "Marzo",
+                "Abril"
+            ],
+            "respuesta_correcta": "Septiembre"
+        },
+        {
+            "pregunta": "¿Cuál fue el primer juego que jugamos juntos?",
+            "opciones": [
+                "Parchís",
+                "Minecraft",
+                "Brawlhalla",
+                "CS2"
+            ],
+            "respuesta_correcta": "Parchís"
+        },
+        {
+            "pregunta": "¿Qué día empezamos a hablar?",
+            "opciones": [
+                "Siete",
+                "Nueve",
+                "Ocho",
+                "6-1"
+            ],
+            "respuesta_correcta": "Siete"
+        },
+        {
+            "pregunta": "¿Quíen se declaró primero?",
+            "opciones": [
+                "Tú",
+                "Yo",
+                "Los dos",
+                "Todas son correctas"
+            ],
+            "respuesta_correcta": "Tú"
+        },
+        {
+            "pregunta": "¿Quíen dijo te quiero primero en llamada?",
+            "opciones": [
+                "Tú",
+                "Yo",
+                "Los dos",
+                "Todas son incorrectas"
+            ],
+            "respuesta_correcta": "Yo"
+        },
+        {
+            "pregunta": "¿Quíen dijo te quiero primero en videollamada?",
+            "opciones": [
+                "Tú",
+                "Yo",
+                "Los dos",
+                "Todas son incorrectas"
+            ],
+            "respuesta_correcta": "Tú"
+        },
+        {
+            "pregunta": "¿En qué app nos conocimos?",
+            "opciones": [
+                "Purrp",
+                "Purp",
+                "Moobly",
+                "Todas son incorrectas"
+            ],
+            "respuesta_correcta": "Purp"
+        },
+        {
+            "pregunta": "¿Cuál es el apodo que más usamos entre nosotros?",
+            "opciones": [
+                "Mi amor",
+                "Babe",
+                "Vida",
+                "Todas son correctas"
+            ],
+            "respuesta_correcta": "babe"
+        },
+        {
+            "pregunta": "¿Qué país fue el primero que dijimos de querer los dos visitar juntos?",
+            "opciones": [
+                "Japón",
+                "China",
+                "Taiwan",
+                "Corea del Norte"
+            ],
+            "respuesta_correcta": "Japón"
+        },
+        {
+            "pregunta": "¿Qué aspecto es fundamental en nuestra relación?",
+            "opciones": [
+                "Honestidad",
+                "Amor",
+                "Respeto",
+                "Todas son correctas"
+            ],
+            "respuesta_correcta": "Todas son correctas"
+        },
+        {
+            "pregunta": "¿Qué parte de la rutina diaría compartimos aunque estemos lejos?",
+            "opciones": [
+                "El día",
+                "El desayuno",
+                "La exploracion",
+                "Todas son incorrectas"
+            ],
+            "respuesta_correcta": "El día"
+        },
+        {
+            "pregunta": "¿Si tuviera que elegir yo entre quedarme hasta tarde o madrugar(¿Cuál elegiría?)?",
+            "opciones": [
+                "Hasta tarde",
+                "Madrugar",
+                "Los dos",
+                "Todas son incorrectas"
+            ],
+            "respuesta_correcta": "Hasta tarde"
+        },
+        {
+            "pregunta": "¿Qué emoji uso más cuando hablamos?",
+            "opciones": [
+                "💕",
+                "❤️",
+                "💗",
+                "Todas son incorrectas"
+            ],
+            "respuesta_correcta": "💕"
+        },
+        {
+            "pregunta": "¿Qué palabra para expresar afecto creamos?",
+            "opciones": [
+                "Te quiamo",
+                "Te quiadoro",
+                "te amoquiadoro",
+                "Todas son incorrectas"
+            ],
+            "respuesta_correcta": "Te quiamo"
+        },
+        {
+            "pregunta": "¿Qué fue lo primero que nos escribimos?",
+            "opciones": [
+                "C++>>>,Java>>>",
+                "C++>>>",
+                "Java>>>",
+                "Php>>>"
+            ],
+            "respuesta_correcta": "C++>>>,Java>>>"
+        },
+        {
+            "pregunta": "¿Qué actividad tengo muchas ganas de hacer contigo?",
+            "opciones": [
+                "Ver un atardecer",
+                "Comernos un kebab",
+                "Viajar",
+                "Domesticar palomas"
+            ],
+            "respuesta_correcta": "Viajar"
+        },
+        {
+            "pregunta": "¿Qué fue lo primero que nos escribimos?",
+            "opciones": [
+                "C++>>>,Java>>>",
+                "C++>>>",
+                "Java>>>",
+                "Php>>>"
+            ],
+            "respuesta_correcta": "C++>>>,Java>>>"
+        },
+        {
+            "pregunta": "¿Sí hiciesemos una playlist juntos que canción no podría faltar ?",
+            "opciones": [
+                "Sunflower",
+                "Alma",
+                "Patadas de ahogados",
+                "Bohemian Rapsody"
+            ],
+            "respuesta_correcta": "Sunflower"
+        },
+        {
+            "pregunta": "¿Me consederías el honor de quererte toda la vida?",
+            "opciones": [
+                "Sí",
+                "No",
+                "Tal vez",
+                "Claramente no"
+            ],
+            "respuesta_correcta": "Sí"
+        },
+        {
+            "pregunta": "¿Te quiero mucho?",
+            "opciones": [
+                "Sí",
+                "Por supuesto que no",
+                "Tal vez mañana",
+                "Puede"
+            ],
+            "respuesta_correcta": "Sí"
+        }
+    ]
+}

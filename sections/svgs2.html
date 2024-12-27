@@ -1,0 +1,81 @@
+<h2>Cuando te declarastes, nuestra primera videollamada y cuando me pedistes ser tu novia</h2>
+<br>
+
+<div class="scene">
+    <svg xmlns="http://www.w3.org/2000/svg" width="400" height="700" viewBox="0 0 400 700"
+        style="background-color: #f5f5f5; border-radius: 20px; overflow: hidden;">
+        <!-- Teléfono -->
+        <rect x="10" y="10" width="380" height="680" rx="30" fill="#333" />
+        <rect x="20" y="20" width="360" height="660" rx="20" fill="#fff" />
+        <!-- Barra superior -->
+        <rect x="20" y="20" width="360" height="40" fill="#6200ea" />
+        <circle cx="200" cy="40" r="6" fill="#fff" />
+        <text x="175" y="80" fill="#000" font-size="19px" font-family="Arial, sans-serif"
+            font-weight="bolder">Instagram</text>
+        <text x="150" y="120" fill="black" font-size="16px" font-family="Arial, sans-serif" font-weight="bolder">31 de
+            octubre</text>
+        <g id="avatar-left">
+            <!-- Cara -->
+            <circle cx="60" cy="80" r="30" fill="#ffcc80" />
+            <!-- Cabello rubio corto -->
+            <path d="M30,60 C40,50 80,50 90,60 C90,70 70,80 60,70 C50,80 30,70 30,60 Z" fill="#fbc02d" />
+            <!-- Ojos -->
+            <circle cx="50" cy="75" r="4" fill="#000" />
+            <circle cx="70" cy="75" r="4" fill="#000" />
+            <!-- Boca -->
+            <path d="M50,90 Q60,100 70,90" stroke="#d32f2f" stroke-width="2" fill="none" />
+        </g>
+        <!-- Avatar derecho (tú - chica) -->
+        <g id="avatar-right">
+            <!-- Cara -->
+            <circle cx="340" cy="80" r="30" fill="#ffe0b2" />
+            <!-- Cabello largo y rizado -->
+            <path d="M310,60 C320,40 360,40 370,60 C380,80 355,95 340,95 C325,95 300,80 310,60 Z" fill="#3e2723" />
+            <!-- Ojos -->
+            <circle cx="330" cy="75" r="4" fill="#000" />
+            <circle cx="350" cy="75" r="4" fill="#000" />
+            <!-- Boca -->
+            <path d="M330,90 Q340,100 350,90" stroke="#d32f2f" stroke-width="2" fill="none" />
+        </g>
+        <!-- Mensajes -->
+        <!-- Mensaje izquierdo -->
+        <g id="msg1">
+            <rect x="20" y="150" width="200" height="50" rx="15" fill="#6200ea" />
+            <text x="30" y="180" fill="#fff" font-size="16px" font-family="Arial, sans-serif">Te quiero</text>
+        </g>
+        <!-- Mensaje derecho -->
+        <g id="msg2">
+            <rect x="180" y="220" width="200" height="50" rx="15" fill="#e1bee7" />
+            <text x="190" y="250" fill="#000" font-size="16px" font-family="Arial, sans-serif">Yo también te
+                quiero </text>
+        </g>
+        <text x="150" y="290" fill="black" font-size="16px" font-family="Arial, sans-serif" font-weight="bolder">17 de
+            Noviembre</text>
+        <!-- Animaciones de mensajes emergentes -->
+        <animateTransform xlink:href="#msg1" attributeName="transform" type="translate" from="0,-30" to="0,0" dur="0.5s"
+            repeatCount="1" begin="mouseover" />
+        <animateTransform xlink:href="#msg2" attributeName="transform" type="translate" from="0,30" to="0,0" dur="0.5s"
+            begin="mouseover" repeatCount="1" />
+        <!-- Cámara 1 (izquierda - videollamada) -->
+        <image href="../images/video1.png" width="90px" height="290px" x="40" y="290"></image>
+        <image href="../images/video2.png" width="90px" height="290px" x="270" y="290"></image>
+        <text x="150" y="350" fill="black" font-size="16px" font-family="Arial, sans-serif"
+            font-weight="ligh">Videollamada</text>
+        <text x="90" y="500" fill="black" font-size="16px" font-family="Arial, sans-serif" font-weight="ligh">Primera
+            videollamada realizada</text>
+        <text x="150" y="540" fill="black" font-size="16px" font-family="Arial, sans-serif" font-weight="bolder">22 de
+            Noviembre</text>
+        <g id="msg1">
+            <rect x="20" y="560" width="200" height="50" rx="15" fill="#6200ea" />
+            <text x="30" y="590" fill="#fff" font-size="16px" font-family="Arial, sans-serif">
+                <tspan x="30" y="580"> ¿Te gustaría que</tspan>
+                <tspan x="30" y="600"> fuera tu novio?</tspan>
+            </text>
+        </g>
+        <!-- Mensaje derecho -->
+        <g id="msg2">
+            <rect x="180" y="615" width="200" height="50" rx="15" fill="#e1bee7" />
+            <text x="190" y="640" fill="#000" font-size="16px" font-family="Arial, sans-serif">Sí, me gustaría </text>
+        </g>
+    </svg>
+</div>

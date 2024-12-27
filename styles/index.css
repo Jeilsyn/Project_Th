@@ -1,0 +1,342 @@
+/* Importaciones */
+
+@font-face {
+  font-family: "minecraft";
+  src: url(../styles/fonts/VT323/VT323-Regular.ttf);
+}
+
+/* Estilos globales */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url("../images/fondoHome.jpeg");
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  font-family: minecraft;
+}
+
+.h3 {
+  margin-top: 100vw;
+  font-family: minecraft;
+  background-color: rgba(225, 255, 245, 0.741);
+  width: 75%;
+  height: auto;
+  margin: auto;
+  
+  border: 2px outset rgba(0, 0, 139, 0.434);
+  text-align: center;
+  box-shadow: 3px 4px 9px 4px rgba(0, 0, 139, 0.832);
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden; /* Evita desbordamiento horizontal */
+}
+
+/* Estilos del Header*/
+header {
+  margin: 0;
+  background: linear-gradient(
+    to left,
+    rgba(0, 253, 253, 0.804),
+    rgba(9, 15, 128, 0.944)
+  );
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 7vh;
+  border-bottom: 1px outset rgba(18, 143, 189, 0.295);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 1000;
+  padding: 0 10px;
+  box-shadow: 0px 8px 8px rgba(147, 120, 252, 0.785);
+}
+
+.logo img {
+  width: 50px;
+  height: auto;
+}
+
+/* Estilos de navegación */
+nav ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  margin-right: 40px;
+
+}
+
+nav ul li a {
+  position: relative;
+  font-size:20px;
+  margin-left: 20px;
+  cursor: pointer;
+  padding-bottom: 5px;
+  color: rgb(3, 20, 82);
+  transition: font-size 0.3s ease, font-weight 0.3s ease;
+}
+
+/* Efectos hover */
+nav ul li a:hover {
+  font-weight: bold;
+  font-size: 20px;
+  color: rgb(255, 0, 191);
+}
+
+/* Estilos para los enlaces */
+.menu a {
+  display: block;
+  position: relative;
+  overflow: hidden;
+}
+
+.menu a span:first-child {
+  display: inline-block;
+  padding: 10px;
+  transition: transform 0.2s ease-out;
+}
+
+.menu a span:last-child {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transform: translateY(-80%); /* Por defecto, el icono está oculto */
+  transition: transform 0.3s ease-out;
+}
+
+.menu a:hover span:first-child {
+  transform: translateY(80%); 
+}
+
+.menu a:hover span:last-child {
+  transform: translateY(0); 
+}
+/***/
+
+.divHistory {
+  padding: 25px 35px;
+  margin: auto;
+  text-align: justify;
+  width: 70%;
+  background: linear-gradient(
+    to left,
+    rgba(79, 82, 250, 0.949),    rgba(12, 231, 231, 0.901)
+  );
+  box-shadow: 7px 4px 12px rgba(29, 255, 255, 0.785);
+  min-height: 20vh; 
+  font-size:18px;
+
+}
+
+.divMusica {
+  padding: 25px 35px;
+  margin: auto;
+  text-align: justify;
+  width: 45%;
+  background: linear-gradient(
+    to left,
+    rgba(79, 82, 250, 0.949),    rgba(12, 231, 231, 0.901)
+  );
+  box-shadow: 7px 4px 12px rgba(29, 255, 255, 0.785);
+  min-height: 2vh;
+  font-size:18px;
+
+}
+
+.boton{
+  margin: 0 45%;
+}
+
+.boton:hover{
+  margin: 0 45%;
+  cursor: pointer;
+  width: 45px;
+}
+
+
+.title4 {
+  font-size: 155px;
+  font-weight: bolder;
+  margin: auto;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  text-shadow: 12px 8px 13px rgb(36, 255, 229);
+}
+
+
+/**-----------------------------------------------------
+-----------------------------------------------------------
+-----------------------------------------------------------
+------------------------------------------------------------
+-------------------------------------------------------------
+------------------------------------------------------------
+----------------------------------------------------------
+---------------------*/
+.footer {
+  width: 100%;
+  min-height: 4vh; /* Ajusta una altura mínima */
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  background: linear-gradient(
+    to right,
+    rgba(0, 255, 255, 0.682),
+    rgba(0, 85, 255, 0.747)
+  );
+  font-family: "playfair";
+  color: rgb(0, 0, 0);
+  padding: 10px 0;
+  text-align: justify;
+  font-size: 14px;
+  z-index: 1000;
+}
+
+.h3Footer {
+  padding-bottom: 0px;
+}
+
+/*Responsive*/
+/* Para tabletas y dispositivos  */
+@media (max-width: 768px) {
+  .title4{
+    font-size: 65px;
+    margin-bottom: 35%;
+
+  }
+  header {
+    height: 30px;
+    padding: 10px 20px;
+    margin-bottom: 100px;
+  }
+
+  .logo img {
+    width: 50px;
+  }
+
+  nav ul {
+    flex-direction: row;
+    margin-right: 0;
+  }
+
+  nav ul li a{
+    margin-left: 0;
+    margin-bottom: 10px;
+    font-size: 18px;
+  }
+
+  nav ul li:hover {
+    font-size: 18px;
+  }
+
+  footer {
+    height: 4vh;
+    font-size: 12px;
+  }
+}
+
+/* Para móviles  */
+@media (max-width: 480px) {
+  .title4{
+    font-size: 50px;
+    margin-bottom: 45%;
+
+  }
+  .header {
+    padding: 5px 10px;
+    height: 35px;
+    margin-bottom: 100px;
+  }
+
+  .logo img {
+    width: 50px;
+  }
+
+  nav ul {
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+  }
+
+  nav ul li a {
+    position: relative;
+  font-size:2px;
+  margin-left: 2px;
+  cursor: pointer;
+  padding-bottom: 5px;
+  color: rgb(12, 29, 90);
+  transition: font-size 0.3s ease, font-weight 0.3s ease;
+
+  }
+
+  nav ul li:hover {
+    font-size: 10px;
+  }
+
+  footer {
+    font-size: 9px;
+    padding: 5px 0;
+    height: 4vh;
+  }
+}
+
+@media (max-width: 1366px) and (max-height: 768px) {
+  body {
+    font-size: 16px; 
+    background-size: cover; 
+  }
+
+  .h3 {
+    width: 450px;
+    font-size: 18px; 
+  }
+
+  header {
+    height: 8vh; 
+    padding: 0 20px;
+  }
+
+  nav ul li {
+    font-size: 18px; 
+    margin-left: 15px;
+  }
+
+  nav ul li a {
+    font-size: 18px; 
+  }
+
+  .divHistory {
+    width: 80%; 
+    font-size: 16px; 
+    padding: 20px 30px; 
+  }
+
+  .title {
+    font-size: 120px; 
+    text-shadow: 10px 6px 11px rgb(36, 255, 229);
+  }
+
+  .footer {
+    font-size: 12px; 
+    padding: 10px;
+    height: auto;
+  }
+}
